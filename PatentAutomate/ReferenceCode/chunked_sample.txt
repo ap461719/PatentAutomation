@@ -1,0 +1,452 @@
+The present invention pertains to an isolated antibody or an antigen binding fragment thereof, which is characterized by the inclusion of a variant Fc region. This antibody or antigen binding fragment is specifically engineered to bind to the hemagglutinin (HA) of the influenza B virus and possesses the capability to neutralize the virus across two phylogenetically distinct lineages. The antibody or antigen binding fragment is further defined by a set of six complementarity-determining regions (CDRs), which are crucial for its binding specificity and affinity.
+
+The invention encompasses a plurality of embodiments, each defined by a unique combination of heavy chain and light chain CDRs. The heavy chain CDRs (HCDRs) and light chain CDRs (LCDRs) are selected from specific sequences, each identified by a sequence identification number (SEQ ID NO.). The detailed combinations of these CDRs are as follows:
+
+(a) The first embodiment comprises HCDR-1 of SEQ ID NO.: 3, HCDR-2 of SEQ ID NO.: 4, HCDR-3 of SEQ ID NO.: 5, LCDR-1 of SEQ ID NO.: 8, LCDR-2 of SEQ ID NO.: 9, and LCDR-3 of SEQ ID NO.: 10.
+
+(b) The second embodiment includes HCDR-1 of SEQ ID NO.: 13, HCDR-2 of SEQ ID NO.: 14, HCDR-3 of SEQ ID NO.: 15, LCDR-1 of SEQ ID NO.: 18, LCDR-2 of SEQ ID NO.: 19, and LCDR-3 of SEQ ID NO.: 20.
+
+(c) The third embodiment is characterized by HCDR-1 of SEQ ID NO.: 23, HCDR-2 of SEQ ID NO.: 24, HCDR-3 of SEQ ID NO.: 25, LCDR-1 of SEQ ID NO.: 28, LCDR-2 of SEQ ID NO.: 29, and LCDR-3 of SEQ ID NO.: 30.
+
+(d) The fourth embodiment comprises HCDR-1 of SEQ ID NO.: 33, HCDR-2 of SEQ ID NO.: 34, HCDR-3 of SEQ ID NO.: 35, LCDR-1 of SEQ ID NO.: 38, LCDR-2 of SEQ ID NO.: 39, and LCDR-3 of SEQ ID NO.: 40.
+
+(e) The fifth embodiment includes HCDR-1 of SEQ ID NO.: 43, HCDR-2 of SEQ ID NO.: 44, HCDR-3 of SEQ ID NO.: 45, LCDR-1 of SEQ ID NO.: 48, LCDR-2 of SEQ ID NO.: 49, and LCDR-3 of SEQ ID NO.: 50.
+
+(f) The sixth embodiment is characterized by HCDR-1 of SEQ ID NO.: 53, HCDR-2 of SEQ ID NO.: 54, HCDR-3 of SEQ ID NO.: 55, LCDR-1 of SEQ ID NO.: 58, LCDR-2 of SEQ ID NO.: 59, and LCDR-3 of SEQ ID NO.: 60.
+
+(g) The seventh embodiment comprises HCDR-1 of SEQ ID NO.: 63, HCDR-2 of SEQ ID NO.: 64, HCDR-3 of SEQ ID NO.: 65, LCDR-1 of SEQ ID NO.: 68, LCDR-2 of SEQ ID NO.: 69, and LCDR-3 of SEQ ID NO.: 70.
+
+(h) The eighth embodiment includes HCDR-1 of SEQ ID NO.: 75, HCDR-2 of SEQ ID NO.: 76, HCDR-3 of SEQ ID NO.: 77, LCDR-1 of SEQ ID NO.: 83, LCDR-2 of SEQ ID NO.: 84, and LCDR-3 of SEQ ID NO.: 85.
+
+(i) The ninth embodiment is characterized by HCDR-1 of SEQ ID NO.: 91, HCDR-2 of SEQ ID NO.: 92, HCDR-3 of SEQ ID NO.: 93, LCDR-1 of SEQ ID NO.: 99, LCDR-2 of SEQ ID NO.: 100, and LCDR-3 of SEQ ID NO.: 101.
+
+(j) The tenth embodiment comprises HCDR-1 of SEQ ID NO.: 107, HCDR-2 of SEQ ID NO.: 108, HCDR-3 of SEQ ID NO.: 109, LCDR-1 of SEQ ID NO.: 115, LCDR-2 of SEQ ID NO.: 116, and LCDR-3 of SEQ ID NO.: 117.
+
+(k) The eleventh embodiment includes HCDR-1 of SEQ ID NO.: 127, HCDR-2 of SEQ ID NO.: 128, HCDR-3 of SEQ ID NO.: 129, LCDR-1 of SEQ ID NO.: 130, LCDR-2 of SEQ ID NO.: 131, and LCDR-3 of SEQ ID NO.: 132.
+
+(l) The twelfth embodiment is characterized by HCDR-1 of SEQ ID NO.: 133, HCDR-2 of SEQ ID NO.: 134, HCDR-3 of SEQ ID NO.: 135, LCDR-1 of SEQ ID NO.: 136, LCDR-2 of SEQ ID NO.: 137, and LCDR-3 of SEQ ID NO.: 138.
+
+(m) The thirteenth embodiment comprises HCDR-1 of SEQ ID NO.: 139, HCDR-2 of SEQ ID NO.: 140, HCDR-3 of SEQ ID NO.: 141, LCDR-1 of SEQ ID NO.: 142, LCDR-2 of SEQ ID NO.: 143, and LCDR-3 of SEQ ID NO.: 144.
+
+(n) The fourteenth embodiment includes HCDR-1 of SEQ ID NO.: 78, HCDR-2 of SEQ ID NO.: 79, HCDR-3 of SEQ ID NO.: 80, LCDR-1 of SEQ ID NO.: 86, LCDR-2 of SEQ ID NO.: 87, and LCDR-3 of SEQ ID NO.: 88.
+
+(o) The fifteenth embodiment is characterized by HCDR-1 of SEQ ID NO.: 94, HCDR-2 of SEQ ID NO.: 95, HCDR-3 of SEQ ID NO.: 96, LCDR-1 of SEQ ID NO.: 102, LCDR-2 of SEQ ID NO.: 103, and LCDR-3 of SEQ ID NO.: 104.
+
+(p) The sixteenth embodiment comprises HCDR-1 of SEQ ID NO.: 110, HCDR-2 of SEQ ID NO.: 111, HCDR-3 of SEQ ID NO.: 112, LCDR-1 of SEQ ID NO.: 118, LCDR-2 of SEQ ID NO.: 119, and LCDR-3 of SEQ ID NO.: 120.
+
+The invention is designed to provide a robust immune response against influenza B virus by targeting the hemagglutinin protein, which is a critical component of the virus's ability to infect host cells. The variant Fc region of the antibody or antigen binding fragment is engineered to enhance its therapeutic efficacy, potentially through improved pharmacokinetics, effector functions, or reduced immunogenicity. The specific combinations of CDRs are selected to optimize the binding affinity and specificity of the antibody or antigen binding fragment for the influenza B virus hemagglutinin, thereby ensuring effective neutralization of the virus across different lineages. This invention holds significant potential for the development of therapeutic agents aimed at preventing or treating influenza B virus infections.
+The present invention further delineates an isolated antibody or an antigen binding fragment thereof, as described in claim 1, with enhanced specificity and binding capability to various strains of the influenza B virus. This antibody or antigen binding fragment is engineered to recognize and bind to specific lineages and strains of the influenza B virus, thereby providing a broad spectrum of neutralizing activity.
+
+The antibody or antigen binding fragment is capable of binding to influenza B virus strains within the Yamagata lineage. The specific strains within this lineage include, but are not limited to, B/AA/94 (ca B/Ann Arbor/2/94 (Yamagata)), B/YSI/98 (ca B/Yamanashi/166/98 (Yamagata)), B/JHB/99 (ca B/Johannesburg/5/99 (Yamagata)), B/SC/99 (B/Sichuan/379/99 (Yamagata)), and B/FL/06 (B/Florida/4/2006 (Yamagata)).
+
+In addition to the Yamagata lineage, the antibody or antigen binding fragment is also capable of binding to strains within the Victoria lineage of the influenza B virus. The specific strains within this lineage include, but are not limited to, B/BJ/97 (ca B/Beijing/243/97 (Victoria)), B/HK/01 (B/Hong Kong/330/2001 (Victoria)), B/MY/04 (B/Malaysia/2506/2004 (Victoria)), and B/BNE/08 (ca B/Brisbane/60/2008 (Victoria)).
+
+Furthermore, the antibody or antigen binding fragment is capable of binding to pre-divergent influenza B strains. These strains include, but are not limited to, B/Lee/40 (B/Lee/40), B/AA/66 (ca B/Ann Arbor/1/66), and B/HK/72 (B/Hong Kong/5/72).
+
+The invention encompasses the capability of the antibody or antigen binding fragment to bind to combinations of the aforementioned strains, thereby providing a comprehensive approach to neutralizing the influenza B virus across multiple lineages and historical strains. This broad-spectrum binding capability is achieved through the precise engineering of the antibody's CDRs, which are selected to optimize binding affinity and specificity for the hemagglutinin protein of the influenza B virus.
+
+The ability of the antibody or antigen binding fragment to target multiple strains and lineages of the influenza B virus underscores its potential as a therapeutic agent. By providing cross-lineage protection, the invention addresses the challenges posed by the antigenic variability of the influenza B virus, thereby offering a promising solution for the prevention and treatment of influenza B infections. The invention's broad applicability and potential for inclusion in therapeutic regimens highlight its significance in the field of infectious disease management.
+The present invention further extends to an isolated antibody or an antigen binding fragment thereof, as described in claim 1, which exhibits the capability to bind to the hemagglutinin protein of the influenza A virus. This capability is in addition to its binding affinity for the influenza B virus hemagglutinin, thereby broadening the spectrum of viral targets that the antibody or antigen binding fragment can neutralize.
+
+The influenza A virus is characterized by its significant antigenic diversity, with multiple subtypes and strains circulating globally. The hemagglutinin protein of the influenza A virus is a critical target for neutralizing antibodies, as it plays a pivotal role in the virus's ability to attach to and enter host cells. By targeting this protein, the antibody or antigen binding fragment can effectively inhibit the virus's infectivity and propagation.
+
+The invention encompasses antibodies or antigen binding fragments that are engineered to recognize conserved epitopes within the hemagglutinin protein of the influenza A virus. These conserved regions are less susceptible to antigenic drift, thereby providing a strategic advantage in developing broadly neutralizing antibodies. The ability to bind to influenza A virus hemagglutinin, in conjunction with the capability to bind to influenza B virus hemagglutinin, positions the antibody or antigen binding fragment as a versatile therapeutic agent with potential applications in the prevention and treatment of influenza infections caused by both virus types.
+
+The dual binding capability is achieved through the precise selection and engineering of the antibody's complementarity-determining regions (CDRs), which are tailored to optimize binding affinity and specificity for the hemagglutinin proteins of both influenza A and B viruses. This dual targeting approach enhances the therapeutic potential of the antibody or antigen binding fragment, offering a comprehensive strategy for combating influenza infections across different virus types and subtypes.
+
+The invention's ability to target both influenza A and B viruses underscores its significance in the field of antiviral therapeutics. By providing cross-type protection, the invention addresses the challenges posed by the antigenic variability and co-circulation of influenza A and B viruses, thereby offering a promising solution for the development of universal influenza vaccines and therapeutics. The broad applicability and potential for inclusion in therapeutic regimens highlight the invention's importance in advancing the management and control of influenza infections.
+The present invention further refines the scope of the isolated antibody or antigen binding fragment thereof, as described in claim 3, by specifying its capability to bind to the hemagglutinin protein of influenza A virus subtypes 1 and 2. These subtypes, commonly referred to as H1 and H2, are among the most prevalent and clinically significant subtypes of the influenza A virus, known for their role in past pandemics and seasonal outbreaks.
+
+The hemagglutinin protein of influenza A virus subtypes H1 and H2 is a primary target for neutralizing antibodies due to its essential function in viral attachment and entry into host cells. The ability of the antibody or antigen binding fragment to bind to these specific subtypes enhances its therapeutic potential by providing targeted neutralization of these widely circulating influenza A strains.
+
+The invention encompasses antibodies or antigen binding fragments that are engineered to recognize conserved epitopes within the hemagglutinin proteins of subtypes H1 and H2. These conserved regions are strategically selected to minimize the impact of antigenic drift, thereby ensuring sustained efficacy against these subtypes. The dual targeting of H1 and H2 subtypes, in addition to the capability to bind to influenza B virus hemagglutinin, positions the antibody or antigen binding fragment as a versatile and robust therapeutic agent.
+
+The specificity for influenza A virus subtypes H1 and H2 is achieved through the meticulous design and engineering of the antibody's complementarity-determining regions (CDRs). These CDRs are optimized to enhance binding affinity and specificity for the hemagglutinin proteins of these subtypes, thereby maximizing the neutralizing potential of the antibody or antigen binding fragment.
+
+The invention's ability to target influenza A virus subtypes H1 and H2, alongside its capability to bind to influenza B virus hemagglutinin, underscores its significance in the development of broad-spectrum antiviral therapeutics. By providing targeted protection against these critical influenza A subtypes, the invention addresses the challenges posed by the antigenic diversity and co-circulation of influenza viruses. This comprehensive approach offers a promising solution for the development of universal influenza vaccines and therapeutics, highlighting the invention's importance in advancing the management and control of influenza infections across diverse viral strains and subtypes.
+The present invention further elaborates on the isolated antibody or antigen binding fragment thereof, as described in claim 4, by specifying its capability to bind to influenza A virus group 1 subtypes, specifically selected from H8, H9, H11, H12, H13, H16, and variants thereof. These subtypes, although less commonly associated with human infections, are of significant interest due to their presence in avian and other animal reservoirs, which pose a potential risk for zoonotic transmission and subsequent human outbreaks.
+
+The hemagglutinin proteins of these group 1 subtypes are critical targets for neutralizing antibodies, as they facilitate the initial steps of viral infection by mediating attachment to host cell receptors. The ability of the antibody or antigen binding fragment to bind to these specific subtypes enhances its utility in providing a broad spectrum of protection against diverse influenza A strains, including those with zoonotic potential.
+
+The invention encompasses antibodies or antigen binding fragments that are engineered to recognize conserved epitopes within the hemagglutinin proteins of subtypes H8, H9, H11, H12, H13, and H16. These conserved regions are strategically selected to ensure broad reactivity and sustained efficacy, even in the face of antigenic variation. The inclusion of these subtypes, in addition to the previously specified H1 and H2 subtypes and influenza B virus hemagglutinin, positions the antibody or antigen binding fragment as a comprehensive therapeutic agent with the potential to address a wide array of influenza virus challenges.
+
+The specificity for influenza A virus group 1 subtypes H8, H9, H11, H12, H13, and H16 is achieved through the precise engineering of the antibody's complementarity-determining regions (CDRs). These CDRs are optimized to enhance binding affinity and specificity for the hemagglutinin proteins of these subtypes, thereby maximizing the neutralizing potential of the antibody or antigen binding fragment.
+
+The invention's ability to target influenza A virus group 1 subtypes, alongside its capability to bind to other influenza A and B virus hemagglutinins, underscores its significance in the development of broad-spectrum antiviral therapeutics. By providing targeted protection against these diverse influenza A subtypes, the invention addresses the challenges posed by the antigenic diversity and zoonotic potential of influenza viruses. This comprehensive approach offers a promising solution for the development of universal influenza vaccines and therapeutics, highlighting the invention's importance in advancing the management and control of influenza infections across a wide range of viral strains and subtypes.
+The present invention further specifies the characteristics of the isolated antibody or antigen binding fragment thereof, as described in claim 1, by detailing the variable heavy (VH) and variable light (VL) chain regions. The antibody or antigen binding fragment is defined by having a VH and/or VL region that exhibits at least 75% sequence identity to specific VH and VL sequences. This degree of sequence identity ensures that the antibody retains the structural and functional integrity necessary for effective antigen binding and neutralization.
+
+The invention encompasses antibodies or antigen binding fragments with VH and VL regions selected from the following combinations:
+
+(a) A VH region with at least 75% identity to SEQ ID NO.: 2 and a VL region with at least 75% identity to SEQ ID NO.: 7.
+
+(b) A VH region with at least 75% identity to SEQ ID NO.: 12 and a VL region with at least 75% identity to SEQ ID NO.: 17.
+
+(c) A VH region with at least 75% identity to SEQ ID NO.: 32 and a VL region with at least 75% identity to SEQ ID NO.: 37.
+
+(d) A VH region with at least 75% identity to SEQ ID NO.: 42 and a VL region with at least 75% identity to SEQ ID NO.: 47.
+
+(e) A VH region with at least 75% identity to SEQ ID NO.: 52 and a VL region with at least 75% identity to SEQ ID NO.: 57.
+
+(f) A VH region with at least 75% identity to SEQ ID NO.: 74 and a VL region with at least 75% identity to SEQ ID NO.: 82.
+
+(g) A VH region with at least 75% identity to SEQ ID NO.: 90 and a VL region with at least 75% identity to SEQ ID NO.: 98.
+
+(h) A VH region with at least 75% identity to SEQ ID NO.: 106 and a VL region with at least 75% identity to SEQ ID NO.: 114.
+
+The specified sequence identity threshold of 75% allows for minor variations in the amino acid sequence, which may arise due to natural or engineered mutations, while maintaining the antibody's ability to bind effectively to its target antigen. This flexibility in sequence identity is crucial for accommodating potential modifications that could enhance the antibody's stability, solubility, or binding affinity.
+
+The invention's focus on VH and VL regions with specified sequence identity underscores the importance of these regions in determining the antibody's specificity and affinity for its target antigens. By ensuring that the VH and VL regions are closely related to the specified sequences, the invention provides a robust framework for developing antibodies or antigen binding fragments with consistent and reliable performance in neutralizing influenza viruses.
+
+This approach enhances the therapeutic potential of the antibody or antigen binding fragment, offering a versatile tool for the prevention and treatment of influenza infections. The invention's emphasis on sequence identity and structural integrity highlights its significance in advancing the development of effective antiviral therapeutics.
+The present invention further delineates the characteristics of the isolated antibody or antigen binding fragment thereof, as described in claim 1, by specifying the precise variable heavy (VH) and variable light (VL) chain regions that comprise the antibody or antigen binding fragment. These VH and VL regions are critical for the antibody's ability to bind specifically and effectively to its target antigens, such as the hemagglutinin proteins of influenza viruses.
+
+The invention encompasses antibodies or antigen binding fragments with VH and VL regions selected from the following specific combinations:
+
+(a) A VH region corresponding to SEQ ID NO.: 2 and a VL region corresponding to SEQ ID NO.: 7.
+
+(b) A VH region corresponding to SEQ ID NO.: 12 and a VL region corresponding to SEQ ID NO.: 17.
+
+(c) A VH region corresponding to SEQ ID NO.: 32 and a VL region corresponding to SEQ ID NO.: 37.
+
+(d) A VH region corresponding to SEQ ID NO.: 42 and a VL region corresponding to SEQ ID NO.: 47.
+
+(e) A VH region corresponding to SEQ ID NO.: 52 and a VL region corresponding to SEQ ID NO.: 57.
+
+(f) A VH region corresponding to SEQ ID NO.: 74 and a VL region corresponding to SEQ ID NO.: 82.
+
+(g) A VH region corresponding to SEQ ID NO.: 90 and a VL region corresponding to SEQ ID NO.: 98.
+
+(h) A VH region corresponding to SEQ ID NO.: 106 and a VL region corresponding to SEQ ID NO.: 114.
+
+These specific VH and VL sequences are selected for their ability to confer high specificity and affinity for the target antigens, thereby ensuring effective neutralization of the influenza virus. The precise pairing of VH and VL regions is crucial for maintaining the structural integrity and functional efficacy of the antibody or antigen binding fragment.
+
+The invention's focus on these specific VH and VL combinations underscores the importance of these regions in determining the antibody's binding characteristics. By specifying exact sequences, the invention provides a robust framework for developing antibodies or antigen binding fragments with consistent and reliable performance in neutralizing influenza viruses.
+
+This approach enhances the therapeutic potential of the antibody or antigen binding fragment, offering a targeted and effective tool for the prevention and treatment of influenza infections. The invention's emphasis on precise VH and VL sequences highlights its significance in advancing the development of effective antiviral therapeutics, ensuring that the antibodies or antigen binding fragments are optimized for maximum efficacy against their intended viral targets.
+The present invention further encompasses an isolated nucleic acid that encodes an antibody or antigen binding fragment thereof, as described in claim 1. This nucleic acid is characterized by its ability to direct the synthesis of an antibody or antigen binding fragment that includes a variant Fc region and is capable of binding to influenza B virus hemagglutinin, thereby neutralizing the virus across two phylogenetically distinct lineages.
+
+The isolated nucleic acid may be in the form of DNA, RNA, or any suitable nucleic acid analogs that can encode the polypeptide sequences of the antibody or antigen binding fragment. The nucleic acid sequence is designed to encode the variable heavy (VH) and variable light (VL) chain regions, as well as the constant regions necessary for the formation of a functional antibody or antigen binding fragment.
+
+The invention provides for nucleic acids that encode the specific VH and VL regions as detailed in the previous claims, ensuring that the resulting antibody or antigen binding fragment retains the desired specificity and affinity for the target antigens. The nucleic acid may be optimized for expression in various host cells, including bacterial, yeast, insect, or mammalian cells, to facilitate the production of the antibody or antigen binding fragment in a suitable expression system.
+
+The isolated nucleic acid may be incorporated into an expression vector, which includes regulatory elements such as promoters, enhancers, and terminators, to drive the expression of the encoded antibody or antigen binding fragment. The expression vector may also include selectable markers and other elements necessary for the selection and maintenance of host cells expressing the nucleic acid.
+
+The invention's inclusion of isolated nucleic acids encoding the antibody or antigen binding fragment underscores the importance of genetic engineering in the production of therapeutic antibodies. By providing the genetic blueprint for the antibody or antigen binding fragment, the invention enables the large-scale production and purification of these molecules for therapeutic use.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a versatile tool for the prevention and treatment of influenza infections. The invention's emphasis on isolated nucleic acids highlights its significance in advancing the field of biotechnology and therapeutic antibody development, ensuring that the antibodies or antigen binding fragments are produced efficiently and with high fidelity to their intended sequences.
+The present invention further encompasses a vector comprising an isolated nucleic acid as described in claim 8. This vector is designed to facilitate the expression of an antibody or antigen binding fragment that includes a variant Fc region and is capable of binding to influenza B virus hemagglutinin, thereby neutralizing the virus across two phylogenetically distinct lineages.
+
+The vector serves as a vehicle for the delivery and expression of the isolated nucleic acid within a host cell. It includes essential regulatory elements that control the transcription and translation of the nucleic acid sequence encoding the antibody or antigen binding fragment. These regulatory elements may comprise promoters, enhancers, ribosome binding sites, and transcription terminators, which are selected based on the host cell system to ensure optimal expression levels.
+
+The vector may be a plasmid, viral vector, or any other suitable vector type that is compatible with the intended host cell. Plasmid vectors are commonly used for expression in bacterial systems, while viral vectors, such as lentiviral or adenoviral vectors, may be employed for expression in mammalian cells. The choice of vector depends on the specific requirements of the expression system and the desired application of the antibody or antigen binding fragment.
+
+In addition to the regulatory elements, the vector may include selectable markers, such as antibiotic resistance genes, to facilitate the selection and maintenance of host cells that have successfully incorporated the vector. The vector may also contain elements that enhance the stability and replication of the vector within the host cell, ensuring sustained expression of the encoded nucleic acid.
+
+The inclusion of a vector in the invention underscores the importance of efficient gene delivery and expression in the production of therapeutic antibodies. By providing a means to introduce and express the isolated nucleic acid in host cells, the invention enables the large-scale production and purification of the antibody or antigen binding fragment for therapeutic use.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a versatile tool for the prevention and treatment of influenza infections. The invention's emphasis on vectors highlights its significance in advancing the field of genetic engineering and therapeutic antibody development, ensuring that the antibodies or antigen binding fragments are produced efficiently and with high fidelity to their intended sequences.
+The present invention further extends to a host cell comprising a nucleic acid as described in claim 9. This host cell is engineered to express an antibody or antigen binding fragment that includes a variant Fc region and is capable of binding to influenza B virus hemagglutinin, thereby neutralizing the virus across two phylogenetically distinct lineages.
+
+The host cell serves as a biological system for the production of the antibody or antigen binding fragment. It is transformed or transfected with the vector containing the isolated nucleic acid, allowing for the integration or maintenance of the vector within the cellular environment. The choice of host cell is critical and may vary depending on the desired expression system and the specific requirements for protein folding, post-translational modifications, and scalability.
+
+Suitable host cells include, but are not limited to, bacterial cells such as Escherichia coli, yeast cells such as Saccharomyces cerevisiae, insect cells such as those derived from Spodoptera frugiperda (Sf9), and mammalian cells such as Chinese hamster ovary (CHO) cells or human embryonic kidney (HEK) 293 cells. Each host cell type offers distinct advantages in terms of expression efficiency, protein processing, and ease of scale-up for industrial production.
+
+The host cell is cultured under conditions that promote the expression of the nucleic acid, leading to the synthesis of the antibody or antigen binding fragment. This process may involve optimizing culture conditions, such as temperature, pH, and nutrient availability, to maximize yield and functionality of the expressed protein.
+
+The invention's inclusion of host cells underscores the importance of cellular systems in the production of therapeutic antibodies. By providing a means to express the isolated nucleic acid within a living cell, the invention enables the efficient production and purification of the antibody or antigen binding fragment for therapeutic applications.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a robust platform for the prevention and treatment of influenza infections. The invention's emphasis on host cells highlights its significance in advancing the field of biotechnology and therapeutic antibody development, ensuring that the antibodies or antigen binding fragments are produced with high fidelity and in quantities sufficient for clinical and commercial use.
+The present invention further encompasses a method for manufacturing an antibody or antigen binding fragment thereof, which is capable of binding to influenza B virus hemagglutinin (HA) and neutralizing the virus across two phylogenetically distinct lineages. This method involves the use of a host cell that comprises a nucleic acid as described in claim 8, and it is designed to facilitate the efficient production of the desired antibody or antigen binding fragment.
+
+The method comprises the following steps:
+
+1. **Preparation of Host Cells**: The method begins with the preparation of host cells that have been transformed or transfected with a vector containing the isolated nucleic acid encoding the antibody or antigen binding fragment. The host cells are selected based on their suitability for expressing the desired protein, with options including bacterial, yeast, insect, or mammalian cells.
+
+2. **Culturing Conditions**: The host cells are cultured under conditions that are conducive to the expression of the nucleic acid. This involves optimizing various parameters such as temperature, pH, oxygen levels, and nutrient supply to ensure maximal expression and proper folding of the antibody or antigen binding fragment. The culture conditions are tailored to the specific requirements of the host cell type being used.
+
+3. **Expression of Antibody or Fragment**: During the culturing process, the host cells transcribe and translate the nucleic acid, resulting in the synthesis of the antibody or antigen binding fragment. The expression system is designed to facilitate high yields of the protein, which may include the use of strong promoters, enhancers, and other regulatory elements within the vector.
+
+4. **Harvesting and Purification**: Once sufficient expression has been achieved, the antibody or antigen binding fragment is harvested from the culture. This may involve cell lysis if the protein is expressed intracellularly, or collection of the culture supernatant if the protein is secreted. The harvested product is then subjected to purification processes, such as affinity chromatography, to isolate the antibody or antigen binding fragment with high purity and activity.
+
+5. **Quality Control and Characterization**: The purified antibody or antigen binding fragment undergoes rigorous quality control and characterization to ensure its specificity, affinity, and neutralizing capability against influenza B virus hemagglutinin. This may include assays to confirm binding activity, structural integrity, and functional efficacy.
+
+The method described herein provides a systematic approach to the production of antibodies or antigen binding fragments with therapeutic potential against influenza B virus. By leveraging the capabilities of host cell expression systems, the method enables the scalable and efficient manufacture of these biologics, ensuring their availability for clinical and commercial applications.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a reliable and robust platform for the prevention and treatment of influenza infections. The invention's emphasis on a methodical manufacturing process highlights its significance in advancing the field of therapeutic antibody production, ensuring that the antibodies or antigen binding fragments are produced with high fidelity and in quantities sufficient to meet demand.
+The present invention further encompasses a composition comprising an antibody or antigen binding fragment thereof, as described in claim 1, formulated in a specific buffer system. This composition is designed to maintain the stability, solubility, and activity of the antibody or antigen binding fragment, thereby enhancing its therapeutic efficacy.
+
+The composition includes the following components:
+
+1. **Antibody or Antigen Binding Fragment**: The primary active ingredient in the composition is the antibody or antigen binding fragment capable of binding to influenza B virus hemagglutinin and neutralizing the virus across two phylogenetically distinct lineages. This biologic is engineered to possess high specificity and affinity for its target antigen, ensuring effective neutralization of the virus.
+
+2. **Buffer System**: The composition is formulated in a buffer system comprising 25 mM histidine (His) and 0.15 M sodium chloride (NaCl) at a pH of 6.0. This buffer system is selected to provide an optimal environment for the stability and solubility of the antibody or antigen binding fragment. The histidine buffer helps maintain the pH within a range that preserves the structural integrity and biological activity of the protein, while the sodium chloride contributes to the ionic strength necessary for maintaining solubility and preventing aggregation.
+
+The specific formulation of the composition is critical for ensuring the long-term stability and efficacy of the antibody or antigen binding fragment. The pH and ionic conditions are carefully controlled to prevent denaturation or degradation of the protein, thereby preserving its therapeutic potential.
+
+The invention's inclusion of a specific composition underscores the importance of formulation science in the development of biologic therapeutics. By providing a stable and effective formulation, the invention ensures that the antibody or antigen binding fragment retains its intended activity and can be delivered effectively in clinical settings.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a composition that is suitable for storage, handling, and administration in various therapeutic contexts. The invention's emphasis on a well-defined composition highlights its significance in advancing the field of pharmaceutical formulation, ensuring that the antibodies or antigen binding fragments are delivered in a manner that maximizes their therapeutic benefit.
+The present invention further encompasses a method for the prophylaxis or treatment of influenza B infection in a subject, which involves the administration of an effective amount of an antibody or antigen binding fragment thereof, as described in claim 1. This method is designed to leverage the neutralizing capability of the antibody or antigen binding fragment to prevent or mitigate the effects of influenza B virus infection in the subject.
+
+The method comprises the following steps:
+
+1. **Identification of the Subject**: The method begins with the identification of a subject in need of prophylaxis or treatment for influenza B infection. This may include individuals who have been exposed to the virus, are at high risk of exposure, or are currently exhibiting symptoms of influenza B infection.
+
+2. **Determination of Effective Amount**: An effective amount of the antibody or antigen binding fragment is determined based on various factors, including the subject's age, weight, health status, and the severity of the infection or risk of exposure. The effective amount is defined as the quantity sufficient to achieve the desired therapeutic effect, which may include the prevention of infection, reduction of viral load, or alleviation of symptoms.
+
+3. **Administration of the Antibody or Antigen Binding Fragment**: The antibody or antigen binding fragment is administered to the subject using an appropriate route of administration. This may include intravenous, intramuscular, or subcutaneous injection, depending on the formulation and clinical considerations. The administration is carried out under conditions that ensure the stability and activity of the antibody or antigen binding fragment.
+
+4. **Monitoring and Evaluation**: Following administration, the subject is monitored for therapeutic response and any potential adverse effects. The efficacy of the treatment is evaluated based on clinical outcomes, such as reduction in symptoms, prevention of disease progression, or clearance of the virus. Adjustments to the dosage or frequency of administration may be made based on the subject's response to the treatment.
+
+The method described herein provides a targeted approach to the prevention and treatment of influenza B infections, utilizing the specific binding and neutralizing properties of the antibody or antigen binding fragment. By administering an effective amount of the biologic, the method aims to enhance the subject's immune response against the virus, thereby reducing the impact of the infection.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a method that is applicable in both prophylactic and therapeutic contexts. The invention's emphasis on a methodical approach to administration highlights its significance in advancing the field of infectious disease management, ensuring that the antibodies or antigen binding fragments are used effectively to protect and treat individuals at risk of or affected by influenza B infections.
+The present invention further encompasses a method for the prophylaxis or treatment of both influenza A and influenza B infections in a subject, involving the administration of an effective amount of an antibody or antigen binding fragment thereof, as described in claim 1. This method is designed to utilize the broad-spectrum neutralizing capability of the antibody or antigen binding fragment to combat infections caused by both types of influenza viruses, thereby providing comprehensive protection and treatment.
+
+The method comprises the following steps:
+
+1. **Identification of the Subject**: The method begins with the identification of a subject who is in need of prophylaxis or treatment for influenza A and/or influenza B infections. This may include individuals who have been exposed to either or both viruses, are at high risk of exposure, or are currently exhibiting symptoms indicative of influenza infection.
+
+2. **Determination of Effective Amount**: An effective amount of the antibody or antigen binding fragment is determined based on various factors, including the subject's age, weight, overall health status, and the severity of the infection or risk of exposure. The effective amount is defined as the quantity sufficient to achieve the desired therapeutic effect, which may include the prevention of infection, reduction of viral load, or alleviation of symptoms associated with either or both influenza A and B infections.
+
+3. **Administration of the Antibody or Antigen Binding Fragment**: The antibody or antigen binding fragment is administered to the subject using an appropriate route of administration. This may include intravenous, intramuscular, or subcutaneous injection, depending on the formulation and clinical considerations. The administration is conducted under conditions that ensure the stability and activity of the antibody or antigen binding fragment, maximizing its therapeutic potential.
+
+4. **Monitoring and Evaluation**: Following administration, the subject is monitored for therapeutic response and any potential adverse effects. The efficacy of the treatment is evaluated based on clinical outcomes, such as reduction in symptoms, prevention of disease progression, or clearance of the virus. Adjustments to the dosage or frequency of administration may be made based on the subject's response to the treatment.
+
+The method described herein provides a dual-targeted approach to the prevention and treatment of influenza infections, leveraging the specific binding and neutralizing properties of the antibody or antigen binding fragment against both influenza A and B viruses. By administering an effective amount of the biologic, the method aims to enhance the subject's immune response against these viruses, thereby reducing the impact of the infections.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a method that is applicable in both prophylactic and therapeutic contexts for a broad range of influenza infections. The invention's emphasis on a comprehensive method for addressing both influenza A and B infections highlights its significance in advancing the field of infectious disease management, ensuring that the antibodies or antigen binding fragments are used effectively to protect and treat individuals at risk of or affected by these prevalent viral infections.
+The present invention further encompasses the use of an antibody or antigen binding fragment thereof, as described in claim 1, for the in vitro diagnosis of influenza B infection in a subject. This diagnostic application leverages the specific binding affinity of the antibody or antigen binding fragment for the hemagglutinin protein of the influenza B virus, enabling the detection and identification of the virus in biological samples.
+
+The use of the antibody or antigen binding fragment for in vitro diagnosis involves the following steps:
+
+1. **Sample Collection**: A biological sample is collected from the subject suspected of having an influenza B infection. Suitable samples may include nasal or throat swabs, sputum, or other respiratory secretions that are likely to contain the virus.
+
+2. **Preparation of Diagnostic Assay**: The antibody or antigen binding fragment is incorporated into a diagnostic assay format suitable for detecting the presence of influenza B virus in the collected sample. This may include enzyme-linked immunosorbent assays (ELISA), lateral flow assays, immunofluorescence assays, or other immunoassay techniques that utilize the specific binding properties of the antibody or antigen binding fragment.
+
+3. **Detection of Influenza B Virus**: The prepared assay is used to analyze the biological sample. The antibody or antigen binding fragment binds specifically to the hemagglutinin protein of the influenza B virus, if present in the sample. This binding event is then detected and quantified using appropriate detection methods, such as colorimetric, fluorescent, or chemiluminescent signals, depending on the assay format.
+
+4. **Interpretation of Results**: The results of the assay are interpreted to determine the presence or absence of influenza B virus in the sample. A positive result indicates the presence of the virus, suggesting an active infection in the subject. The specificity and sensitivity of the antibody or antigen binding fragment ensure accurate and reliable diagnostic outcomes.
+
+The use of the antibody or antigen binding fragment for in vitro diagnosis provides a valuable tool for the early detection and confirmation of influenza B infections. By enabling rapid and specific identification of the virus, this diagnostic application aids in timely clinical decision-making and the implementation of appropriate therapeutic interventions.
+
+This approach enhances the potential for effective disease management, offering a diagnostic method that is applicable in clinical laboratories and point-of-care settings. The invention's emphasis on the use of antibodies or antigen binding fragments for diagnostic purposes highlights its significance in advancing the field of infectious disease diagnostics, ensuring that influenza B infections are accurately and efficiently identified in affected individuals.
+The present invention further describes an isolated antibody or antigen binding fragment thereof, as detailed in claim 1, which is engineered to possess an enhanced serum half-life relative to a native Fc antibody. This enhancement in serum half-life is achieved through modifications to the Fc region of the antibody or antigen binding fragment, thereby extending its duration of action in the circulatory system and improving its therapeutic efficacy.
+
+The enhanced serum half-life of the antibody or antigen binding fragment is attributed to specific alterations in the Fc region, which may include amino acid substitutions, deletions, or additions that increase the binding affinity to the neonatal Fc receptor (FcRn). The FcRn plays a crucial role in protecting IgG antibodies from lysosomal degradation, thereby recycling them back into the bloodstream and prolonging their half-life.
+
+The modifications to the Fc region are carefully designed to maintain the structural integrity and functional activity of the antibody or antigen binding fragment while optimizing its pharmacokinetic properties. These modifications may involve:
+
+1. **Amino Acid Substitutions**: Strategic substitutions at key positions within the Fc region that enhance FcRn binding, thereby increasing the recycling and persistence of the antibody or antigen binding fragment in the serum.
+
+2. **Glycosylation Modifications**: Alterations to the glycosylation patterns of the Fc region that can influence the interaction with FcRn and other serum proteins, contributing to an extended half-life.
+
+3. **Fc Fusion Technologies**: Incorporation of Fc fusion technologies that stabilize the antibody or antigen binding fragment and enhance its serum stability.
+
+The enhanced serum half-life of the antibody or antigen binding fragment offers several therapeutic advantages, including reduced dosing frequency, improved patient compliance, and sustained therapeutic levels in the bloodstream. This is particularly beneficial in the context of prophylaxis or treatment of influenza B infections, where prolonged exposure to the neutralizing antibody can provide continuous protection against the virus.
+
+The invention's focus on enhancing the serum half-life underscores the importance of optimizing pharmacokinetic properties in the development of therapeutic antibodies. By extending the duration of action, the invention ensures that the antibody or antigen binding fragment remains effective over an extended period, thereby maximizing its therapeutic potential.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a biologic that is not only potent in its neutralizing activity but also optimized for long-term efficacy. The invention's emphasis on serum half-life enhancement highlights its significance in advancing the field of therapeutic antibody development, ensuring that the antibodies or antigen binding fragments are designed to meet the demands of clinical applications.
+The present invention further refines the characteristics of the isolated antibody or antigen binding fragment thereof, as described in claim 16, by specifying that the variant Fc region comprises modifications at one or more specific amino acid positions. These positions are selected from a defined set, as numbered by the EU index according to Kabat, which is a widely recognized system for numbering antibody sequences.
+
+The modifications at these positions are strategically designed to enhance the interaction of the Fc region with the neonatal Fc receptor (FcRn), thereby extending the serum half-life of the antibody or antigen binding fragment. The positions available for modification include, but are not limited to, the following: 221, 225, 228, 234, 235, 236, 237, 238, 239, 240, 241, 243, 244, 245, 247, 250, 251, 252, 254, 255, 256, 257, 262, 263, 264, 265, 266, 267, 268, 269, 279, 280, 284, 292, 296, 297, 298, 299, 305, 308, 313, 316, 318, 320, 322, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 339, 341, 343, 370, 373, 378, 392, 416, 419, 421, 428, 433, 434, 435, 436, 440, and 443.
+
+The specific modifications may include:
+
+1. **Amino Acid Substitutions**: Introducing substitutions at one or more of these positions to enhance FcRn binding affinity. These substitutions are selected based on structural and functional analyses to ensure that they contribute positively to the pharmacokinetic profile without compromising the antibody's stability or activity.
+
+2. **Glycosylation Site Modifications**: Altering glycosylation sites within the Fc region to influence the interaction with FcRn and other serum proteins, thereby contributing to an extended half-life.
+
+3. **Structural Stabilization**: Modifications that enhance the overall structural stability of the Fc region, ensuring that the antibody or antigen binding fragment maintains its functional conformation over an extended period in the circulatory system.
+
+The invention's focus on specific modifications within the Fc region underscores the importance of precise engineering in optimizing the pharmacokinetic properties of therapeutic antibodies. By targeting these key positions, the invention ensures that the antibody or antigen binding fragment achieves an extended serum half-life, thereby maximizing its therapeutic potential.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a biologic that is not only potent in its neutralizing activity but also optimized for long-term efficacy. The invention's emphasis on Fc region modifications highlights its significance in advancing the field of therapeutic antibody development, ensuring that the antibodies or antigen binding fragments are designed to meet the demands of clinical applications, particularly in the context of treating and preventing influenza infections.
+The present invention further elaborates on the isolated antibody or antigen binding fragment thereof, as described in claim 17, by specifying that the modifications within the variant Fc region can be selected from substitutions, insertions, and deletions. These modifications are strategically implemented at one or more of the specified amino acid positions to enhance the antibody's pharmacokinetic properties, particularly its serum half-life.
+
+1. **Substitution**: This involves replacing one or more amino acids at the specified positions with different amino acids. The substitutions are chosen based on their ability to enhance the binding affinity of the Fc region to the neonatal Fc receptor (FcRn), thereby promoting recycling and extending the serum half-life. Substitutions are carefully selected to maintain or improve the structural integrity and functional activity of the antibody or antigen binding fragment.
+
+2. **Insertion**: This modification entails adding one or more amino acids at specific positions within the Fc region. Insertions are designed to introduce new structural elements that can enhance the interaction with FcRn or stabilize the Fc region. The inserted amino acids are selected to ensure compatibility with the overall structure and function of the antibody or antigen binding fragment.
+
+3. **Deletion**: This involves the removal of one or more amino acids from the specified positions. Deletions are employed to eliminate residues that may negatively impact FcRn binding or to streamline the Fc region for improved pharmacokinetic properties. The deletions are executed in a manner that preserves the essential structural and functional characteristics of the antibody or antigen binding fragment.
+
+The choice of modification—whether substitution, insertion, or deletion—is guided by structural and functional analyses to ensure that the resulting antibody or antigen binding fragment exhibits enhanced serum half-life without compromising its stability or efficacy. These modifications are integral to the design of antibodies that are optimized for therapeutic use, providing prolonged exposure and sustained activity in the circulatory system.
+
+The invention's focus on these specific types of modifications underscores the importance of precise molecular engineering in the development of therapeutic antibodies. By employing substitutions, insertions, and deletions, the invention ensures that the antibody or antigen binding fragment achieves the desired pharmacokinetic profile, thereby maximizing its therapeutic potential.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a biologic that is not only potent in its neutralizing activity but also optimized for long-term efficacy. The invention's emphasis on these modifications highlights its significance in advancing the field of therapeutic antibody development, ensuring that the antibodies or antigen binding fragments are designed to meet the demands of clinical applications, particularly in the context of treating and preventing influenza infections.
+The present invention further specifies the isolated antibody or antigen binding fragment thereof, as described in claim 16, by detailing that the variant Fc region includes at least one substitution at specific amino acid positions. These substitutions are selected from a comprehensive list of potential modifications, each of which is numbered according to the EU index as set forth in Kabat, a recognized system for antibody sequence numbering.
+
+The substitutions are strategically chosen to enhance the interaction of the Fc region with the neonatal Fc receptor (FcRn), thereby extending the serum half-life of the antibody or antigen binding fragment. This enhancement is crucial for improving the pharmacokinetic profile and therapeutic efficacy of the antibody.
+
+The potential substitutions include, but are not limited to, the following:
+
+- At position 221: K, Y
+- At position 225: E, K, W
+- At position 228: P
+- At position 234: D, E, N, Q, T, H, Y, I, V, F
+- At position 235: A, D, R, W, P, S, N, Q, T, H, Y, I, V, E, F
+- At position 236: E
+- At position 237: L, M, P
+- At position 239: D, E, N, Q, F, T, H, Y
+- At position 240: I, A, T, M
+- At position 241: W, L, Y, E, R
+- At position 243: W, L, Y, R, Q
+- At position 244: H
+- At position 245: A
+- At position 247: L, V, G
+- At position 250: E, Q
+- At position 251: F
+- At position 252: L, Y
+- At position 254: S, T
+- At position 255: L
+- At position 256: E, F, M
+- At position 257: C, M, N
+- At position 262: I, A, T, E
+- At position 263: I, A, T, M
+- At position 264: L, I, W, T, R, F, M, Y, E
+- At position 265: A, G, N, Q, Y, F, V, I, L, H, T
+- At position 266: I, A, T, M
+- At position 267: Q, L
+- At position 268: E
+- At position 269: H, Y, F, R
+- At position 270: E
+- At position 280: A
+- At position 284: M
+- At position 292: P, L
+- At position 296: E, Q, D, N, S, T, L, I, H, G
+- At position 297: S, D, E
+- At position 298: A, H, I, T, F
+- At position 299: I, L, A, S, V, H, F, E
+- At position 305: I
+- At position 308: F
+- At position 313: F
+- At position 316: D
+- At position 318: A, S
+- At position 320: A, S
+- At position 322: A, S
+- At position 325: Q, L, I, D, E, A, T, V, H
+- At position 326: A, D, E, G, M, V
+- At position 327: G, W, N, L
+- At position 328: S, M, D, E, N, Q, F, I, V, T, H, A
+- At position 329: F, H, Q
+- At position 330: K, G, T, C, L, Y, V, I, F, R, H
+- At position 331: G, A, L, M, F, W, K, Q, E, S, V, I, C, Y, H, R, N, D, T
+- At position 332: D, S, W, F, E, N, Q, T, H, Y, A
+- At position 333: A, D, G, Q, S, V
+- At position 334: A, E, H, L, M, Q, V, Y
+- At position 339: T
+- At position 370: E, N
+- At position 378: D
+- At position 392: T
+- At position 396: L
+- At position 416: G
+- At position 419: H
+- At position 421: K
+- At position 428: L, F
+- At position 433: K, L
+- At position 434: A, W, Y
+- At position 436: H
+- At position 440: Y
+- At position 443: W
+
+These substitutions are selected based on their potential to enhance FcRn binding, thereby improving the recycling and persistence of the antibody or antigen binding fragment in the serum. The modifications are carefully designed to maintain the structural integrity and functional activity of the antibody, ensuring that it remains effective in neutralizing influenza B virus.
+
+The invention's focus on specific substitutions within the Fc region underscores the importance of precise molecular engineering in optimizing the pharmacokinetic properties of therapeutic antibodies. By targeting these key positions, the invention ensures that the antibody or antigen binding fragment achieves an extended serum half-life, thereby maximizing its therapeutic potential.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a biologic that is not only potent in its neutralizing activity but also optimized for long-term efficacy. The invention's emphasis on Fc region modifications highlights its significance in advancing the field of therapeutic antibody development, ensuring that the antibodies or antigen binding fragments are designed to meet the demands of clinical applications, particularly in the context of treating and preventing influenza infections.
+The present invention further refines the isolated antibody or antigen binding fragment thereof, as described in claim 16, by specifying that the variant Fc region includes targeted modifications at specific amino acid positions. These modifications are strategically chosen to enhance the pharmacokinetic properties of the antibody or antigen binding fragment, particularly its serum half-life, by improving its interaction with the neonatal Fc receptor (FcRn). The positions for modification are numbered according to the EU index as set forth in Kabat, a recognized system for antibody sequence numbering.
+
+The variant Fc region may include modifications as follows:
+
+(a) **Modifications at Positions 228, 234, 235, and 331**: These positions are critical for FcRn binding and are selected for modifications that can enhance the recycling and persistence of the antibody in the serum. Modifications at these positions may involve amino acid substitutions that increase the affinity of the Fc region for FcRn, thereby extending the serum half-life of the antibody or antigen binding fragment.
+
+(b) **Modifications at Positions 228 and 235**: These positions are particularly influential in FcRn interactions. Modifications here may include substitutions that optimize the structural conformation of the Fc region, enhancing its binding affinity and stability, which in turn prolongs the antibody's presence in the circulatory system.
+
+(c) **Modifications at Positions 239, 330, and 332**: These positions are selected for their potential to influence the overall stability and binding characteristics of the Fc region. Modifications at these sites may involve substitutions that improve the structural integrity and functional performance of the antibody, ensuring effective FcRn-mediated recycling.
+
+(d) **Modifications at Positions 252, 254, and 256**: These positions are chosen for modifications that can enhance the solubility and stability of the Fc region. Substitutions at these sites may contribute to a more favorable pharmacokinetic profile by reducing aggregation and enhancing the antibody's half-life.
+
+The specific modifications at these positions are carefully designed to maintain the structural integrity and functional activity of the antibody or antigen binding fragment. By targeting these key positions, the invention ensures that the antibody achieves an extended serum half-life, thereby maximizing its therapeutic potential.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a biologic that is not only potent in its neutralizing activity but also optimized for long-term efficacy. The invention's emphasis on precise Fc region modifications highlights its significance in advancing the field of therapeutic antibody development, ensuring that the antibodies or antigen binding fragments are designed to meet the demands of clinical applications, particularly in the context of treating and preventing influenza infections.
+The present invention further specifies the isolated antibody or antigen binding fragment thereof, as described in claim 16, by detailing that the variant Fc region includes specific amino acid substitutions. These substitutions are strategically selected to enhance the pharmacokinetic properties of the antibody or antigen binding fragment, particularly its serum half-life, by improving its interaction with the neonatal Fc receptor (FcRn). The positions for these substitutions are numbered according to the EU index as set forth in Kabat, a recognized system for antibody sequence numbering.
+
+The variant Fc region may include substitutions as follows:
+
+(a) **Substitutions at Positions 228P, 235E, and 235Y**: These substitutions are designed to enhance the binding affinity of the Fc region to FcRn, thereby promoting increased recycling and extended serum half-life. The substitution of proline at position 228 (228P) can introduce conformational stability, while glutamic acid (235E) and tyrosine (235Y) at position 235 can enhance electrostatic interactions with FcRn.
+
+(b) **Substitutions at Positions 239D, 330L, 330Y, and 332E**: These substitutions are selected to optimize the structural conformation and binding characteristics of the Fc region. Aspartic acid at position 239 (239D) and glutamic acid at position 332 (332E) can enhance charge interactions, while leucine (330L) and tyrosine (330Y) at position 330 can contribute to hydrophobic interactions that stabilize the Fc-FcRn complex.
+
+(c) **Substitutions at Positions 252Y, 254T, and 256E**: These substitutions are aimed at improving the solubility and stability of the Fc region. Tyrosine at position 252 (252Y) and threonine at position 254 (254T) can enhance hydrogen bonding, while glutamic acid at position 256 (256E) can improve charge distribution, contributing to a more favorable pharmacokinetic profile.
+
+(d) **Substitutions at Positions 228P, 234F, 235E, 235F, 235Y, and 331S**: These substitutions are chosen for their potential to enhance FcRn binding and overall stability of the Fc region. Phenylalanine at position 234 (234F) and serine at position 331 (331S) can introduce favorable hydrophobic and polar interactions, respectively, while the substitutions at position 235 (235E, 235F, 235Y) provide options for optimizing electrostatic and hydrophobic interactions.
+
+The specific substitutions at these positions are carefully designed to maintain the structural integrity and functional activity of the antibody or antigen binding fragment. By targeting these key positions, the invention ensures that the antibody achieves an extended serum half-life, thereby maximizing its therapeutic potential.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a biologic that is not only potent in its neutralizing activity but also optimized for long-term efficacy. The invention's emphasis on precise Fc region substitutions highlights its significance in advancing the field of therapeutic antibody development, ensuring that the antibodies or antigen binding fragments are designed to meet the demands of clinical applications, particularly in the context of treating and preventing influenza infections.
+The present invention further specifies the isolated antibody or antigen binding fragment thereof, as described in claim 16, by detailing that the variant Fc region comprises an IgG4 Fc region. The incorporation of an IgG4 Fc region is strategically chosen to confer specific structural and functional advantages that enhance the therapeutic potential of the antibody or antigen binding fragment.
+
+The IgG4 subclass of immunoglobulins is characterized by unique properties that distinguish it from other IgG subclasses, particularly in terms of effector functions and structural stability. The use of an IgG4 Fc region in the antibody or antigen binding fragment offers several benefits:
+
+1. **Reduced Effector Function**: The IgG4 Fc region is known for its reduced ability to engage with Fc gamma receptors (FcγRs) and complement proteins, which minimizes the activation of immune effector functions such as antibody-dependent cellular cytotoxicity (ADCC) and complement-dependent cytotoxicity (CDC). This property is advantageous in therapeutic applications where minimizing immune activation is desired, such as in the treatment of chronic inflammatory conditions or when targeting self-antigens.
+
+2. **Enhanced Stability**: The IgG4 Fc region is engineered to enhance the structural stability of the antibody or antigen binding fragment. This stability is crucial for maintaining the integrity and functionality of the therapeutic molecule over extended periods, particularly in the circulatory system where it is exposed to various physiological conditions.
+
+3. **Improved Pharmacokinetics**: The IgG4 Fc region can be modified to enhance its interaction with the neonatal Fc receptor (FcRn), thereby extending the serum half-life of the antibody or antigen binding fragment. This modification ensures prolonged therapeutic exposure and efficacy, reducing the frequency of dosing required for effective treatment.
+
+4. **Flexibility in Engineering**: The IgG4 Fc region provides a versatile platform for further engineering to introduce additional modifications that can optimize the antibody's pharmacokinetic and pharmacodynamic properties. This flexibility allows for the customization of the antibody or antigen binding fragment to meet specific therapeutic needs.
+
+By incorporating an IgG4 Fc region, the invention ensures that the antibody or antigen binding fragment is optimized for therapeutic use, offering a balance between efficacy and safety. This approach enhances the potential for developing effective antiviral therapeutics, providing a biologic that is not only potent in its neutralizing activity but also tailored for long-term efficacy and minimal immune activation.
+
+The invention's emphasis on the use of an IgG4 Fc region highlights its significance in advancing the field of therapeutic antibody development, ensuring that the antibodies or antigen binding fragments are designed to meet the demands of clinical applications, particularly in the context of treating and preventing influenza infections.
+The present invention further specifies the isolated antibody or antigen binding fragment thereof, as described in claim 16, by detailing that the variant Fc region comprises three specific amino acid substitutions: 252Y, 254T, and 256E, as numbered by the EU index according to Kabat. These substitutions are strategically selected to enhance the pharmacokinetic properties of the antibody or antigen binding fragment, particularly its serum half-life, by optimizing its interaction with the neonatal Fc receptor (FcRn).
+
+1. **Substitution at Position 252Y**: The substitution of tyrosine (Y) at position 252 is designed to enhance the hydrophobic interactions within the Fc region. Tyrosine is known for its ability to form strong hydrophobic and π-stacking interactions, which can contribute to the overall stability and structural integrity of the Fc region. This stability is crucial for maintaining the functional conformation of the antibody or antigen binding fragment, thereby enhancing its therapeutic efficacy.
+
+2. **Substitution at Position 254T**: The substitution of threonine (T) at position 254 introduces a hydroxyl group that can participate in hydrogen bonding, further stabilizing the Fc region. Threonine's polar nature can improve the solubility and structural conformation of the Fc region, facilitating better interaction with FcRn and contributing to an extended serum half-life.
+
+3. **Substitution at Position 256E**: The substitution of glutamic acid (E) at position 256 introduces a negatively charged side chain, which can enhance electrostatic interactions with FcRn. This substitution is strategically chosen to improve the binding affinity of the Fc region to FcRn, promoting increased recycling and prolonged persistence of the antibody or antigen binding fragment in the circulatory system.
+
+The combination of these three substitutions—252Y, 254T, and 256E—creates a synergistic effect that optimizes the pharmacokinetic profile of the antibody or antigen binding fragment. By enhancing the stability, solubility, and FcRn binding affinity, these modifications ensure that the antibody remains effective over an extended period, reducing the frequency of dosing required for therapeutic efficacy.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a biologic that is not only potent in its neutralizing activity but also optimized for long-term efficacy. The invention's emphasis on these specific Fc region substitutions highlights its significance in advancing the field of therapeutic antibody development, ensuring that the antibodies or antigen binding fragments are designed to meet the demands of clinical applications, particularly in the context of treating and preventing influenza infections.
+The present invention further specifies the isolated antibody or antigen binding fragment thereof, as described in claim 1, by detailing the precise set of six complementarity-determining regions (CDRs) that define its antigen-binding specificity and affinity. The specified CDRs are critical for the antibody's ability to bind to the hemagglutinin protein of the influenza B virus, thereby enabling effective neutralization of the virus across two phylogenetically distinct lineages.
+
+The set of six CDRs comprises the following sequences:
+
+1. **HCDR-1 of SEQ ID NO.: 53**: This heavy chain CDR1 is responsible for initiating contact with the antigen and contributes to the overall binding affinity and specificity of the antibody. The sequence of HCDR-1 is carefully selected to optimize interactions with key epitopes on the hemagglutinin protein.
+
+2. **HCDR-2 of SEQ ID NO.: 54**: This heavy chain CDR2 plays a crucial role in stabilizing the antigen-antibody complex. The sequence of HCDR-2 is designed to enhance the structural complementarity between the antibody and the hemagglutinin protein, ensuring a strong and specific binding interaction.
+
+3. **HCDR-3 of SEQ ID NO.: 55**: This heavy chain CDR3 is often the most variable and critical for antigen recognition. The sequence of HCDR-3 is tailored to provide high specificity and affinity for the hemagglutinin protein, contributing significantly to the neutralizing capability of the antibody.
+
+4. **LCDR-1 of SEQ ID NO.: 58**: This light chain CDR1 complements the heavy chain CDRs in antigen binding. The sequence of LCDR-1 is selected to enhance the overall binding interface, contributing to the stability and specificity of the antigen-antibody interaction.
+
+5. **LCDR-2 of SEQ ID NO.: 59**: This light chain CDR2 further stabilizes the antigen-antibody complex. The sequence of LCDR-2 is designed to optimize interactions with the hemagglutinin protein, ensuring effective binding and neutralization.
+
+6. **LCDR-3 of SEQ ID NO.: 60**: This light chain CDR3 is critical for fine-tuning the specificity and affinity of the antibody. The sequence of LCDR-3 is selected to complement the heavy chain CDRs, providing a robust and specific binding interaction with the hemagglutinin protein.
+
+The precise combination of these six CDRs is engineered to maximize the antibody's binding affinity and specificity for the influenza B virus hemagglutinin. By targeting conserved and functionally important epitopes, the antibody or antigen binding fragment is capable of effectively neutralizing the virus, thereby offering significant therapeutic potential.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a biologic that is specifically tailored for high efficacy against influenza B infections. The invention's emphasis on the precise configuration of CDRs highlights its significance in advancing the field of therapeutic antibody development, ensuring that the antibodies or antigen binding fragments are designed to meet the demands of clinical applications, particularly in the context of treating and preventing influenza infections.
+The present invention further specifies the isolated antibody or antigen binding fragment thereof, as described in claim 1, by detailing an alternative set of six complementarity-determining regions (CDRs) that define its antigen-binding specificity and affinity. This particular configuration of CDRs is critical for the antibody's ability to bind effectively to the hemagglutinin protein of the influenza B virus, thereby enabling potent neutralization across two phylogenetically distinct lineages.
+
+The set of six CDRs comprises the following sequences:
+
+1. **HCDR-1 of SEQ ID NO.: 139**: This heavy chain CDR1 is essential for the initial contact with the antigen. The sequence of HCDR-1 is meticulously selected to optimize interactions with specific epitopes on the hemagglutinin protein, contributing to the overall binding affinity and specificity of the antibody.
+
+2. **HCDR-2 of SEQ ID NO.: 140**: This heavy chain CDR2 plays a pivotal role in stabilizing the antigen-antibody complex. The sequence of HCDR-2 is designed to enhance the structural complementarity between the antibody and the hemagglutinin protein, ensuring a robust and specific binding interaction.
+
+3. **HCDR-3 of SEQ ID NO.: 141**: This heavy chain CDR3 is often the most variable and critical for antigen recognition. The sequence of HCDR-3 is tailored to provide high specificity and affinity for the hemagglutinin protein, significantly contributing to the neutralizing capability of the antibody.
+
+4. **LCDR-1 of SEQ ID NO.: 142**: This light chain CDR1 complements the heavy chain CDRs in antigen binding. The sequence of LCDR-1 is selected to enhance the overall binding interface, contributing to the stability and specificity of the antigen-antibody interaction.
+
+5. **LCDR-2 of SEQ ID NO.: 143**: This light chain CDR2 further stabilizes the antigen-antibody complex. The sequence of LCDR-2 is designed to optimize interactions with the hemagglutinin protein, ensuring effective binding and neutralization.
+
+6. **LCDR-3 of SEQ ID NO.: 144**: This light chain CDR3 is critical for fine-tuning the specificity and affinity of the antibody. The sequence of LCDR-3 is selected to complement the heavy chain CDRs, providing a robust and specific binding interaction with the hemagglutinin protein.
+
+The precise combination of these six CDRs is engineered to maximize the antibody's binding affinity and specificity for the influenza B virus hemagglutinin. By targeting conserved and functionally important epitopes, the antibody or antigen binding fragment is capable of effectively neutralizing the virus, thereby offering significant therapeutic potential.
+
+This approach enhances the potential for developing effective antiviral therapeutics, offering a biologic that is specifically tailored for high efficacy against influenza B infections. The invention's emphasis on the precise configuration of CDRs highlights its significance in advancing the field of therapeutic antibody development, ensuring that the antibodies or antigen binding fragments are designed to meet the demands of clinical applications, particularly in the context of treating and preventing influenza infections.
