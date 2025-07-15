@@ -3,7 +3,7 @@ import json
 import os
 
 # Claude API configuration
-CLAUDE_API_KEY = "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"
+CLAUDE_API_KEY = "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"
 CLAUDE_API_URL = "https://api.anthropic.com/v1/messages"
 CLAUDE_MODEL = "claude-3-5-sonnet-20241022"
 

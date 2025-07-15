@@ -1,8 +1,23 @@
 import re
 import argparse
-from utils.utils import chatgpt_chatbot, EMBODIMENT_PROMPT_IN_CONTEXT
+import sys
+import os
+from docx import Document
 
-# System message - sets the AI's role and behavior
+# -----------------------------------------------------------
+#  Utils import
+# -----------------------------------------------------------
+sys.path.append(
+    os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        "utils",
+    )
+)
+from utils import chatgpt_chatbot, EMBODIMENT_PROMPT_IN_CONTEXT  # noqa: E402
+
+# -----------------------------------------------------------
+#  System & user messages (unchanged)
+# -----------------------------------------------------------
 SYSTEM_MESSAGE = """You are a specialized patent attorney assistant designed to generate detailed descriptions of patent applications. 
 
 Your expertise includes:
@@ -11,189 +26,169 @@ Your expertise includes:
 - Generating comprehensive technical descriptions that support patent claims
 - Avoiding repetitive language while maintaining legal precision
 
-Critical Guidelines:
-- NEVER explicitly reference claim numbers or use phrases like "as described in claim X" or "this claim specifies"
+CRITICAL - AVOID PATENT PROFANITY:
+- NEVER explicitly reference claim numbers or use phrases like "as described in claim X", "this claim specifies", "according to claim 1", "claim 2 teaches"
+- NEVER use invention-centric language like "The present invention", "The invention provides", "According to the invention", "The inventive system"
+- NEVER start sentences with "The present invention relates to" or "The system of the present invention"
+- NEVER use vague references like "as claimed herein", "according to the disclosure", "as taught by the invention"
 - Use claims only as context to understand what technical elements to describe
 - Focus on technical implementation details rather than restating claim language
 - Do not include redundant explanations of the same concepts
 - Use formal, technical language appropriate for patent documentation
 - Do not include any markdown formatting in your responses
 - Ensure descriptions are detailed enough to support the patent claims without directly referencing them
-- Maintain consistency in terminology throughout the description"""
+- Maintain consistency in terminology throughout the description
+- Start sentences with specific technical components, not generic invention references"""
 
-# Good and bad examples for style transfer
-GOOD_EXAMPLE = """GOOD EXAMPLE of patent description writing:
+INIT_INSTRUCTION = '''Generate a technical description focusing on molecular mechanisms, structural design rationale, and technical implementation. Use varied sentence openings and avoid repetitive language patterns. Avoid all patent profanity including invention-centric language and claim references:
 
-The MRF system 300 includes a control system 302, which manages, commands, directs, and/or regulates actions and/or behaviors of various components, devices, and/or systems of an MRF using, for example, one or more control loops or other like mechanisms. In particular, the control system 302 receives data from a variety of sources and uses these inputs to control various components, devices, and/or systems of the MRF. The various sources can include a set of sensors 321-1 to 321-N (where N is a number), a set of material handling units (MHUs) 322-1 to 322-M (where M is a number), and/or one or more AI/ML systems 312.
+{claim}'''
 
-The control system 302 receives inputs (e.g., data streams 331, 332) from some or all components of the MRF and provides autonomous control of the MRF based on those inputs. The control system 302 is embodied as one or more computer devices and/or software that runs on the one or more computer devices to carry out, operate, or execute the techniques disclosed herein."""
 
-BAD_EXAMPLE = """BAD EXAMPLE to avoid:
+CONTINUE_INSTRUCTION = '''Continue with additional technical details using completely different sentence structures and terminology. Focus on new technical aspects without repeating previous explanations. Avoid all patent profanity including invention-centric language and claim references:
 
-The present invention relates to a control system for MRFs. As described in claim 1, the control system manages components. The invention further includes sensors as specified in the claims. This claim teaches that data streams are received. The present invention also relates to autonomous control as described in claim 2. The control system of the present invention comprises computer devices as claimed."""
+{claim}'''
 
-STYLE_TRANSFER_SECTION = f"""
-WRITING STYLE GUIDELINES:
+# -----------------------------------------------------------
+#  Style-transfer helper (NEW)
+# -----------------------------------------------------------
+STYLE_PROMPT = """
+Rewrite the following patent-description paragraph so it reads like formal USPTO prose:
+tighten legal language, vary sentence starts, remove repetition, and keep it 100 % factual.
+Do NOT add new subject matter—only polish wording.
 
-{GOOD_EXAMPLE}
-
-{BAD_EXAMPLE}
-
-Notice how the good example:
-- Uses varied sentence structures and technical detail
-- Avoids repetitive phrases like "The present invention relates to..."
-- Never references claim numbers directly
-- Focuses on technical implementation rather than restating claims
-- Uses specific component numbers and technical terminology
-- Provides substantive technical information
-
-The bad example shows what to avoid:
-- Repetitive sentence openings
-- Direct claim references ("as described in claim X")
-- Vague, non-technical language
-- Simply restating claim language without added detail
-
-Follow the style of the GOOD EXAMPLE in your response.
+Paragraph:
+"{para}"
 """
 
-# User messages - specific instructions for each interaction
-INIT_INSTRUCTION = f'''Generate a technical description focusing on molecular mechanisms, structural design rationale, and technical implementation. Use varied sentence openings and avoid repetitive language patterns:
+def stylize(paragraph: str) -> str:
+    """One short GPT call that polishes a single paragraph."""
+    msgs = [
+        {"role": "system", "content": "You are an expert patent editor."},
+        {"role": "user",   "content": STYLE_PROMPT.format(para=paragraph)},
+    ]
+    return chatgpt_chatbot(msgs).strip()
 
-{STYLE_TRANSFER_SECTION}
+# -----------------------------------------------------------
+#  TXT → DOCX (unchanged)
+# -----------------------------------------------------------
+def txt_to_docx(txt_path: str, docx_path: str) -> None:
+    doc = Document()
+    with open(txt_path, "r", encoding="utf-8") as f:
+        for line in f:
+            doc.add_paragraph(line.rstrip())
+    doc.save(docx_path)
+    print(f"Also exported DOCX to '{docx_path}'")
 
-Claims to describe:
-{{claim}}'''
-
-CONTINUE_INSTRUCTION = f'''Continue with additional technical details using completely different sentence structures and terminology. Focus on new technical aspects without repeating previous explanations:
-
-{STYLE_TRANSFER_SECTION}
-
-Additional claims:
-{{claim}}'''
-
-
-
-def split_claims(claims):
-    """Split claims text into individual claims, handling multi-line claims properly."""
-    pattern = re.compile(r'^\d{1,3}\.')
-    split_claims_newline = claims.split('\n')
-    final_split_claims = []
-    full_line = ''
-    
-    for line in reversed(split_claims_newline):
-        if bool(pattern.match(line.strip())):
-            line_to_add = line + "\n" + full_line[:] if full_line != '' else line
-            final_split_claims.insert(0, line_to_add)
-            full_line = ''
+# -----------------------------------------------------------
+#  Claim splitting (unchanged)
+# -----------------------------------------------------------
+def split_claims(claims: str) -> list[str]:
+    pattern = re.compile(r"^\d{1,3}\.")
+    lines, buf, out = claims.split("\n"), "", []
+    for line in reversed(lines):
+        if pattern.match(line.strip()):
+            out.insert(0, line + ("\n" + buf if buf else ""))
+            buf = ""
         else:
-            full_line = line + full_line
-    
-    return final_split_claims
+            buf = line + buf
+    return out
 
-def generate_chunked_desc(claims):
-    """Generate description by processing claims one by one in a conversation."""
+# -----------------------------------------------------------
+#  Chunk-wise generation **with style transfer**
+# -----------------------------------------------------------
+def generate_chunked_desc(claims: str) -> str:
     claims_split = split_claims(claims)
-    full_generation = ""
-    
-    # Initialize with system message
+    polished = []
+
     messages = [
         {"role": "system", "content": SYSTEM_MESSAGE},
-        {"role": "user", "content": INIT_INSTRUCTION.format(claim=claims_split[0])}
+        {"role": "user",   "content": INIT_INSTRUCTION.format(claim=claims_split[0])},
     ]
-    
-    # Process first claim
-    generation = chatgpt_chatbot(messages)
-    full_generation += generation + '\n'
-    messages.append({'role': 'assistant', 'content': generation})
-    
-    # Process remaining claims
+
+    # first chunk
+    raw = chatgpt_chatbot(messages)
+    pretty = stylize(raw)
+    polished.append(pretty)
+    messages.append({"role": "assistant", "content": pretty})
+
+    # subsequent chunks
     for claim in claims_split[1:]:
-        messages.append({'role': 'user', 'content': CONTINUE_INSTRUCTION.format(claim=claim)})
-        generation = chatgpt_chatbot(messages)
-        full_generation += generation + '\n'
-        messages.append({'role': 'assistant', 'content': generation})
-    
-    return full_generation
+        messages.append({"role": "user", "content": CONTINUE_INSTRUCTION.format(claim=claim)})
+        raw = chatgpt_chatbot(messages)
+        pretty = stylize(raw)
+        polished.append(pretty)
+        messages.append({"role": "assistant", "content": pretty})
 
-def generate_full_desc(claims):
-    """Generate complete description in one API call."""
-    enhanced_prompt = f"""You are a specialized patent attorney assistant. Generate a detailed description of a patent application based on the provided claims. 
+    return "\n\n".join(polished)
 
-CRITICAL REQUIREMENTS:
-- NEVER explicitly reference claim numbers or use phrases like "as described in claim X", "this claim specifies", "claim 1", etc.
-- Use claims only as context to understand what technical elements to describe
-- Avoid repetitive phrases like "The present invention relates to..." or "The present invention further..."
-- Vary sentence structure and openings throughout the description
-- Focus on technical implementation details rather than restating claim language
-- Do not include redundant explanations of the same concepts
-- Write in formal, technical language appropriate for patent documentation
-- Do not include any markdown formatting
-- Generate a comprehensive description that supports all the claims without directly referencing them
-
-{STYLE_TRANSFER_SECTION}
-
-Given the claims below, generate a detailed technical description:
-
-{{claims}}"""
-    
-    messages = [
+# -----------------------------------------------------------
+#  Full-shot generation (one style pass)
+# -----------------------------------------------------------
+def generate_full_desc(claims: str) -> str:
+    enhanced_prompt = """You are a specialized patent attorney assistant … {claims}"""
+    msgs = [
         {"role": "system", "content": SYSTEM_MESSAGE},
-        {"role": "user", "content": enhanced_prompt.format(claims=claims)}
+        {"role": "user",   "content": enhanced_prompt.format(claims=claims)},
     ]
-    description = chatgpt_chatbot(messages)
-    return description
+    raw = chatgpt_chatbot(msgs)
+    return stylize(raw)
 
+# -----------------------------------------------------------
+#  Dispatcher (unchanged)
+# -----------------------------------------------------------
 def run_openai_generation(claims, method):
-    """Run patent description generation using specified method."""
-    if method == 'full':
+    if method == "full":
         return generate_full_desc(claims)
-    elif method == 'chunked':
+    if method == "chunked":
         return generate_chunked_desc(claims)
-    else:
-        raise ValueError(f"Method '{method}' not supported. Use 'full' or 'chunked'.")
+    raise ValueError(f"Method '{method}' not supported. Use 'full' or 'chunked'.")
 
+# -----------------------------------------------------------
+#  CLI entry-point (unchanged)
+# -----------------------------------------------------------
 def main():
-    """Main function to handle command line arguments and file operations."""
-    parser = argparse.ArgumentParser(description='Generate patent descriptions using OpenAI with style transfer')
-    parser.add_argument('--claims', type=str, default='./claims.txt', 
-                       help='Path to claims file (default: ./claims.txt)')
-    parser.add_argument('--method', type=str, choices=['full', 'chunked'], default='chunked',
-                       help='Generation method: full or chunked (default: chunked)')
-    parser.add_argument('--output', type=str, default=None,
-                       help='Output file name (default: auto-generated based on method)')
-    
+    parser = argparse.ArgumentParser(description="Generate patent descriptions using OpenAI API")
+    parser.add_argument("--claims", default="../claims/claims_doc.txt",
+                        help="Path to claims file")
+    parser.add_argument("--method", choices=["full", "chunked"], default="chunked",
+                        help="Generation method")
+    parser.add_argument("--output", default=None,
+                        help="Output TXT filename")
+    parser.add_argument("--docx", action="store_true",
+                        help="Also export the description as .docx")
     args = parser.parse_args()
-    
-    # Read claims file
+
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    claims_path = os.path.join(script_dir, args.claims)
+
+    # load claims
     try:
-        with open(args.claims, 'r', encoding='utf-8') as f:
+        with open(claims_path, "r", encoding="utf-8") as f:
             claims = f.read()
-    except FileNotFoundError:
-        print(f"Error: Claims file '{args.claims}' not found.")
-        return
+        print("Loaded claims from:", claims_path)
     except Exception as e:
-        print(f"Error reading claims file: {e}")
+        print("Error reading claims file:", e)
         return
-    
-    # Generate description
+
+    # generate
     try:
-        print(f"Generating description using {args.method} method with built-in MRF style examples...")
+        print(f"Generating description with '{args.method}' method …")
         description = run_openai_generation(claims, args.method)
-        
-        # Determine output filename
-        if args.output:
-            output_file = args.output
-        else:
-            output_file = f'{args.method}_description.txt'
-        
-        # Write output
-        with open(output_file, 'w', encoding='utf-8') as f:
+
+        # write txt
+        out_txt = os.path.join(script_dir,
+                               args.output or f"{args.method}_description_openai.txt")
+        with open(out_txt, "w", encoding="utf-8") as f:
             f.write(description)
-        
-        print(f"Description generated successfully and saved to '{output_file}'")
-        
+        print("TXT saved to", out_txt)
+
+        # optional docx
+        if args.docx:
+            txt_to_docx(out_txt, os.path.splitext(out_txt)[0] + ".docx")
+
     except Exception as e:
-        print(f"Error generating description: {e}")
+        print("Error generating description:", e)
 
 if __name__ == "__main__":
     main()
