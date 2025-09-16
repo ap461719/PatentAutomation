@@ -25,7 +25,7 @@ This project demonstrates how GenAI can accelerate intellectual property workflo
 ### Prerequisites
 - Python 3.10+
 - Install dependencies:
-```bash
+
 pip install -r requirements.txt
 
 API keys required:
